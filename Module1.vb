@@ -51,6 +51,61 @@
 
                 Console.ReadLine()
 
+            ElseIf (opcion = "2") Then
+
+
+                For contador = 0 To 14
+                    Console.WriteLine("")
+                    Console.WriteLine("Inserte un numero en la posicion: " & contador + 1)
+                    num(contador) = Integer.Parse(Console.ReadLine())
+
+                Next
+                Console.WriteLine("")
+                Console.WriteLine("Los datos que se han ingresado son : ")
+                Console.WriteLine("")
+                For contador = 0 To 14
+                    Console.WriteLine("")
+                    Console.Write(" {0}", num(contador))
+                    Console.WriteLine("")
+
+                Next
+
+                For contador = 0 To 14
+                    auxiliar(contador) = 0
+
+                Next
+
+                For contador = 0 To 14
+                    numero = num(contador)
+                    posicion = contador
+                    For contador2 = contador To 14
+                        If (num(contador2) = numero) Then auxiliar(posicion) += 1
+
+                    Next
+
+                Next
+
+                mayor = auxiliar(0)
+                posicionmayor = 0
+                For contador = 0 To 14
+                    If auxiliar(contador) > mayor Then
+                        posicionmayor = contador
+                        mayor = auxiliar(contador)
+
+                    End If
+
+                Next
+                Console.WriteLine("")
+                Console.WriteLine("La moda es : " & num(posicionmayor))
+                Console.WriteLine("")
+                Console.WriteLine("")
+                Console.WriteLine("Presione ENTER para volver al MENU")
+                Console.WriteLine("")
+
+                Console.ReadLine()
+
+
+
 
 
 
