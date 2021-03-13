@@ -16,7 +16,22 @@
         Dim mayor As Integer = 0
         Dim posicionmayor As Integer = 0
 
+        Do While (res < 5)
 
+            Console.WriteLine("")
+            Console.WriteLine(" --------- MENU -------------- ")
+            Console.WriteLine(" 1.- Calcular la MEDIA ARITMETICA ")
+            Console.WriteLine(" 2.- Calcular la MODA ")
+            Console.WriteLine(" 3.- Calcular la MEDIANA ")
+            Console.WriteLine(" 4.- Calcular el NUMERO MENOR Y MAYOR")
+            Console.WriteLine(" 5.- Salir ")
+            Console.WriteLine("")
+
+            opcion = Console.ReadLine()
+
+            If (opcion = "1") Then
+
+            End If
 
 
     End Sub
