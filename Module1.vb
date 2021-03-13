@@ -31,6 +31,29 @@
 
             If (opcion = "1") Then
 
+                For i As Integer = 0 To valores.Length - 1
+                    Console.WriteLine("")
+                    Console.WriteLine("Inserte un numero en la posicion: " & i + 1)
+                    valores(i) = Console.ReadLine
+
+                    suma += valores(i)
+
+                Next
+
+                media = suma / valores.Length
+
+                Console.WriteLine("")
+                Console.WriteLine("La media aritmetica es: = " & media)
+                Console.WriteLine("")
+                Console.WriteLine("")
+                Console.WriteLine("Presione ENTER para volver al MENU")
+                Console.WriteLine("")
+
+                Console.ReadLine()
+
+
+
+
             End If
 
 
