@@ -2,7 +2,6 @@
 
     Sub Main()
 
-        Sub Main()
         Dim valores(14) As Integer 'agregar en numeros 14'
         Dim media As Double = 0
         Dim suma As Integer = 0
@@ -105,13 +104,35 @@
                 Console.ReadLine()
 
 
+            ElseIf (opcion = "4") Then
+
+                For i As Integer = 0 To valores.Length - 1
+                    Console.WriteLine("")
+                    Console.WriteLine("Inserte un numero en la posicion: " & i + 1)
+                    valores(i) = Console.ReadLine
+
+                Next
+
+                Array.Sort(valores)
+
+                Console.WriteLine("")
+                Console.WriteLine("El numero menor es: " & valores(0))
+                Console.WriteLine("El numero mayor es: " & valores(valores.Length - 1))
+                Console.WriteLine("")
+                Console.WriteLine("")
+                Console.WriteLine("Presione ENTER para volver al MENU")
+                Console.WriteLine("")
+
+                Console.ReadLine()
 
 
-
+            ElseIf (opcion >= 5) Then
+                res = 5
 
             End If
 
-
+        Loop
     End Sub
+
 
 End Module

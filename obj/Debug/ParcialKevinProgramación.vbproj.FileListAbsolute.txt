@@ -1,0 +1,11 @@
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\bin\Debug\ParcialKevinProgramación.exe.config
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\bin\Debug\ParcialKevinProgramación.exe
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\bin\Debug\ParcialKevinProgramación.pdb
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\bin\Debug\ParcialKevinProgramación.xml
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.vbprojAssemblyReference.cache
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.Resources.resources
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.vbproj.GenerateResource.cache
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.vbproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.exe
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.xml
+C:\Users\MSI\Desktop\Parcial Programación\ParcialKevinProgramación\ParcialKevinProgramación\obj\Debug\ParcialKevinProgramación.pdb
